@@ -55,7 +55,7 @@ export default function Home() {
 
         {/* body */}
         <form className='flex flex-col items-center mt-44 flex-grow'>
-          <Image  width={300} height={100} src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" />
+          <Image  width={300} height={100} src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="google" />
           <div className='flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl'>
             <SearchIcon className='h-5 mr-3 text-gray-500'/>
             <input ref={searchInputRef} className='flex-grow focus:outline-none' type="text" placeholder="Search" />
